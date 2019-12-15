@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/sign_up_background"
+    android:onClick="rootLayoutTapped"
     tools:context=".SignUp">
 
     <ImageView
@@ -57,13 +58,13 @@
         android:layout_marginEnd="8dp"
         android:ems="10"
         android:hint="@string/password_hint"
-        android:inputType="textPersonName"
+        android:inputType="textPersonName|textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtUserName" />
 
     <Button
-        android:id="@+id/btnSignUp"
+        android:id="@+id/btnSignUpLoginActivity"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -86,5 +87,5 @@
         android:text="@string/log_in_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnSignUp" />
+        app:layout_constraintTop_toBottomOf="@+id/btnSignUpLoginActivity" />
 </androidx.constraintlayout.widget.ConstraintLayout>
