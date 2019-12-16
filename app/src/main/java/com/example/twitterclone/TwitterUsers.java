@@ -69,7 +69,7 @@ public class TwitterUsers extends AppCompatActivity implements AdapterView.OnIte
                                 if (ParseUser.getCurrentUser().getList("fanOf").contains(twitterUser)) {
                                     followedUser = followedUser + twitterUser + "\n";
                                     listView.setItemChecked(tUsers.indexOf(twitterUser), true);
-                                    FancyToast.makeText(TwitterUsers.this, ParseUser.getCurrentUser().getUsername() + " Is Following !" + followedUser, Toast.LENGTH_SHORT, FancyToast.INFO, true).show();
+                                   // FancyToast.makeText(TwitterUsers.this, ParseUser.getCurrentUser().getUsername() + " Is Following !" + followedUser, Toast.LENGTH_SHORT, FancyToast.INFO, true).show();
 
                                 }
                             }
