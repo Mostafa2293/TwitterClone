@@ -7,4 +7,6 @@
     <string name="log_in_button">Login</string>
     <string name="sign_up_activity_title">Sign Up</string>
     <string name="log_in_activity_title">Log In</string>
+    <string name="send_tweet">Send a Tweet...</string>
+    <string name="send_tweet_btn">SEND TWEET</string>
 </resources>
